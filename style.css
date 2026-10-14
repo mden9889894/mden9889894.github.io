@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #947706;
+  background: #0881a2;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -64,4 +64,11 @@ font-size: 0.9rem;
 text-transform: uppercase;
 letter-spacing: 0.15em;
 line-height: 1.4;
+}
+h2 {
+  color: #e94560; /* bright accent */
+}
+
+.content p {
+  color: #a8b2d8;
 }
