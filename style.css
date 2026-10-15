@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #0881a2;
+  background: #e80808;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -21,7 +21,7 @@ body {
 
 body {
   margin: 0;
-  background: #0a8cd8;
+  background: #d80a0a;
   color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 } 
@@ -71,4 +71,97 @@ h2 {
 
 .content p {
   color: #a8b2d8;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+  padding: 16px 24px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #000;
+}
+
+#nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.nav-li a:hover {
+  background: #000;
+  color: #fff;
+}
+nav {
+  background: #1a1a2e;
+  border-color: #1a1a2e;
+}
+
+nav h1 {
+  color: #e94560;
+}
+
+.nav-li a {
+  color: #a8b2d8;
+}
+
+.nav-li a:hover {
+  background: #e94560;
+  color: #fff;
+}
+.sidebar-img {
+  width: 100%;
+  max-width: 760px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transition:
+    filter 0.4s ease,
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+    }
+
+.sidebar-img:hover {
+  filter: grayscale(0%);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+💡 What Does filter Do?
+The filter property applies visual effects to an element — like Instagram filters but in CSS! grayscale(100%) turns the image fully black and white. On hover, grayscale(0%) reveals the full color — try it! border-radius: 16px rounds the corners and box-shadow adds a soft drop shadow. The hover also lifts the image up with translateY(-4px). One block of CSS, huge visual impact!
+sidebar-img {
+  width: 100%;
+  max-width: 760px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  border-radius: 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
